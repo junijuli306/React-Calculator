@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background-color: LightSeaGreen;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  #container {
+    position: relative;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background: #f5f6f7;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: LightSeaGreen;
+  }
+  
+  #calculator {
+    width: 280px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  #container2 {
+    padding: 10px;
+    background-color: black;
+    margin: 0;
+    position: relative;
+  }
+  
+  
+  .row {
+    display: flex;
+    width: 100%;
+  }
+  
+  
+  .item {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 30px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    border: 0.5px solid black;
+  }
+  
+  .item:hover {
+    background-color: white;
+    border-color: white;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  #display {
+    width: 100%;
+    text-align: right;
+    font-family: "Sixtyfour", sans-serif;
+    color: white;
+    background-color: black;
+    pointer-events: none;
+  }
+  
+  #clear {
+    width: 50%;
+    background-color: Crimson;
+  }
+  
+  
+  #multiply, #subtract, #add, #equals {
+    border-right: none;
+  }
+  #subtract, #add, #divide, #multiply {
+    background-color: DarkSeaGreen;
+  }
+  
+  #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #decimal {
+    background-color: Grey;
+  } 
+  
+  #equals {
+    background-color: DarkCyan;
+  }
+  
+  
+  #divide, #multiply, #subtract, #add, #equals, #one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
+    width: 25%;
+    margin: 0;
+  }
+  
+  #zero, #decimal {
+    width: 50%;
+  }
+  
+   #signature {
+    position: relative;
+     margin-top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+     font-family: Roboto;
+      }
